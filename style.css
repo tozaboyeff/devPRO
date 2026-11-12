@@ -1,5 +1,4 @@
 
-/* GENERAL */
 * {
     margin: 0;
     padding: 0;
@@ -40,7 +39,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgba(3, 8, 23, .92);
+    background: rgba(3, 8, 23, .95);
     border-bottom: 1px solid rgba(0, 140, 255, .15);
     position: sticky;
     top: 0;
@@ -99,8 +98,11 @@ span {
     align-items: center;
     justify-content: space-between;
     gap: 40px;
-    background:
-        radial-gradient(ellipse at 75% 50%, #062c65 0%, transparent 50%);
+    background: radial-gradient(
+        ellipse at 75% 50%,
+        #062c65 0%,
+        transparent 50%
+    );
 }
 
 .hero-content {
@@ -399,10 +401,6 @@ span {
     margin: 15px 0;
 }
 
-.price-card li::first-letter {
-    color: var(--cyan);
-}
-
 .price-btn {
     display: block;
     text-align: center;
@@ -427,7 +425,11 @@ span {
 /* CONTACT */
 .contact {
     text-align: center;
-    background: radial-gradient(ellipse at center, #082453, #030817 70%);
+    background: radial-gradient(
+        ellipse at center,
+        #082453,
+        #030817 70%
+    );
 }
 
 .contact-content {
